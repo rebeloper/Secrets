@@ -6,14 +6,70 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C941DA19251216D900713BD6 /* Secrets-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C941DA1A251216D900713BD6 /* Build configuration list for PBXAggregateTarget "Secrets-Universal" */;
+			buildPhases = (
+				C941DA1D251216E500713BD6 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "Secrets-Universal";
+			productName = "Secrets-Universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		C941D9CD2512147B00713BD6 /* Secrets.h in Headers */ = {isa = PBXBuildFile; fileRef = C941D9CB2512147B00713BD6 /* Secrets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C941D9D4251214C200713BD6 /* SecretsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C941D9D3251214C200713BD6 /* SecretsManager.swift */; };
+		C941D9DC2512150700713BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C941D9DB2512150700713BD6 /* AppDelegate.swift */; };
+		C941D9DE2512150700713BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C941D9DD2512150700713BD6 /* SceneDelegate.swift */; };
+		C941D9E02512150700713BD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C941D9DF2512150700713BD6 /* ViewController.swift */; };
+		C941D9E32512150700713BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C941D9E12512150700713BD6 /* Main.storyboard */; };
+		C941D9E52512150700713BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C941D9E42512150700713BD6 /* Assets.xcassets */; };
+		C941D9E82512150700713BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C941D9E62512150700713BD6 /* LaunchScreen.storyboard */; };
+		C941D9EE2512156000713BD6 /* Secrets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C941D9C82512147B00713BD6 /* Secrets.framework */; };
+		C941D9EF2512156000713BD6 /* Secrets.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C941D9C82512147B00713BD6 /* Secrets.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C941D9F02512156000713BD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C941D9BF2512147B00713BD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C941D9C72512147B00713BD6;
+			remoteInfo = Secrets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C941D9F22512156000713BD6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C941D9EF2512156000713BD6 /* Secrets.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		C941D9C82512147B00713BD6 /* Secrets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Secrets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C941D9CB2512147B00713BD6 /* Secrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Secrets.h; sourceTree = "<group>"; };
 		C941D9CC2512147B00713BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C941D9D3251214C200713BD6 /* SecretsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretsManager.swift; sourceTree = "<group>"; };
+		C941D9D92512150700713BD6 /* SecretsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C941D9DB2512150700713BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C941D9DD2512150700713BD6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C941D9DF2512150700713BD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C941D9E22512150700713BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C941D9E42512150700713BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C941D9E72512150700713BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C941D9E92512150700713BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +80,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C941D9D62512150700713BD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C941D9EE2512156000713BD6 /* Secrets.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,7 +95,9 @@
 			isa = PBXGroup;
 			children = (
 				C941D9CA2512147B00713BD6 /* Secrets */,
+				C941D9DA2512150700713BD6 /* SecretsDemo */,
 				C941D9C92512147B00713BD6 /* Products */,
+				C941D9ED2512156000713BD6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -39,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C941D9C82512147B00713BD6 /* Secrets.framework */,
+				C941D9D92512150700713BD6 /* SecretsDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -47,9 +114,31 @@
 			isa = PBXGroup;
 			children = (
 				C941D9CB2512147B00713BD6 /* Secrets.h */,
+				C941D9D3251214C200713BD6 /* SecretsManager.swift */,
 				C941D9CC2512147B00713BD6 /* Info.plist */,
 			);
 			path = Secrets;
+			sourceTree = "<group>";
+		};
+		C941D9DA2512150700713BD6 /* SecretsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C941D9DB2512150700713BD6 /* AppDelegate.swift */,
+				C941D9DD2512150700713BD6 /* SceneDelegate.swift */,
+				C941D9DF2512150700713BD6 /* ViewController.swift */,
+				C941D9E12512150700713BD6 /* Main.storyboard */,
+				C941D9E42512150700713BD6 /* Assets.xcassets */,
+				C941D9E62512150700713BD6 /* LaunchScreen.storyboard */,
+				C941D9E92512150700713BD6 /* Info.plist */,
+			);
+			path = SecretsDemo;
+			sourceTree = "<group>";
+		};
+		C941D9ED2512156000713BD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +173,43 @@
 			productReference = C941D9C82512147B00713BD6 /* Secrets.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		C941D9D82512150700713BD6 /* SecretsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C941D9EA2512150800713BD6 /* Build configuration list for PBXNativeTarget "SecretsDemo" */;
+			buildPhases = (
+				C941D9D52512150700713BD6 /* Sources */,
+				C941D9D62512150700713BD6 /* Frameworks */,
+				C941D9D72512150700713BD6 /* Resources */,
+				C941D9F22512156000713BD6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C941D9F12512156000713BD6 /* PBXTargetDependency */,
+			);
+			name = SecretsDemo;
+			productName = SecretsDemo;
+			productReference = C941D9D92512150700713BD6 /* SecretsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		C941D9BF2512147B00713BD6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Alex Nagy";
 				TargetAttributes = {
 					C941D9C72512147B00713BD6 = {
+						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
+					};
+					C941D9D82512150700713BD6 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					C941DA19251216D900713BD6 = {
 						CreatedOnToolsVersion = 11.7;
 					};
 				};
@@ -112,6 +228,8 @@
 			projectRoot = "";
 			targets = (
 				C941D9C72512147B00713BD6 /* Secrets */,
+				C941D9D82512150700713BD6 /* SecretsDemo */,
+				C941DA19251216D900713BD6 /* Secrets-Universal */,
 			);
 		};
 /* End PBXProject section */
@@ -124,17 +242,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C941D9D72512150700713BD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C941D9E82512150700713BD6 /* LaunchScreen.storyboard in Resources */,
+				C941D9E52512150700713BD6 /* Assets.xcassets in Resources */,
+				C941D9E32512150700713BD6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C941DA1D251216E500713BD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"project\"\n#open \"${PROJECT_DIR}\"\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: Detected, stopping\"\nelse\nexport ALREADYINVOKED=\"true\"\n\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-iosuniversal\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 1. Build Device and Simulator versions\necho \"iphone\"\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\necho \"iphonesim\"\nxcodebuild -target \"${TARGET_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" build\n\n## Step 2. Copy the framework structure (from iphoneos build) to the universal folder\necho \"universal\"\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\n# Step 3. Copy Swift modules from iphonesimulator build (if it exists) to the copied framework directory\necho \"iphone simulator path\"\nSIMULATOR_SWIFT_MODULES_DIR=\"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule/.\"\nif [ -d \"${SIMULATOR_SWIFT_MODULES_DIR}\" ]; then\ncp -R \"${SIMULATOR_SWIFT_MODULES_DIR}\" \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/Modules/${PROJECT_NAME}.swiftmodule\"\nfi\n\n# Step 4. Create universal binary file using lipo and place the combined executable in the copied framework directory\necho \"lipo create\"\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework/${PROJECT_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework/${PROJECT_NAME}\"\n\necho \"end\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C941D9C42512147B00713BD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C941D9D4251214C200713BD6 /* SecretsManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C941D9D52512150700713BD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C941D9E02512150700713BD6 /* ViewController.swift in Sources */,
+				C941D9DC2512150700713BD6 /* AppDelegate.swift in Sources */,
+				C941D9DE2512150700713BD6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C941D9F12512156000713BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C941D9C72512147B00713BD6 /* Secrets */;
+			targetProxy = C941D9F02512156000713BD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C941D9E12512150700713BD6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C941D9E22512150700713BD6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C941D9E62512150700713BD6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C941D9E72512150700713BD6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C941D9CE2512147B00713BD6 /* Debug */ = {
@@ -260,6 +446,7 @@
 		C941D9D12512147B00713BD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R252PR8AVU;
@@ -276,6 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rebeloper.Secrets;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +472,7 @@
 		C941D9D22512147B00713BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = R252PR8AVU;
@@ -305,6 +494,60 @@
 			};
 			name = Release;
 		};
+		C941D9EB2512150800713BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R252PR8AVU;
+				INFOPLIST_FILE = SecretsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebeloper.SecretsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C941D9EC2512150800713BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R252PR8AVU;
+				INFOPLIST_FILE = SecretsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebeloper.SecretsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C941DA1B251216D900713BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R252PR8AVU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C941DA1C251216D900713BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R252PR8AVU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -322,6 +565,24 @@
 			buildConfigurations = (
 				C941D9D12512147B00713BD6 /* Debug */,
 				C941D9D22512147B00713BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C941D9EA2512150800713BD6 /* Build configuration list for PBXNativeTarget "SecretsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C941D9EB2512150800713BD6 /* Debug */,
+				C941D9EC2512150800713BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C941DA1A251216D900713BD6 /* Build configuration list for PBXAggregateTarget "Secrets-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C941DA1B251216D900713BD6 /* Debug */,
+				C941DA1C251216D900713BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
